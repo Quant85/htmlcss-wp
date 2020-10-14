@@ -1,0 +1,258 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Class Utility */
+.float-left{
+  float: left;
+}
+
+/* .logo{
+  font-size: 2.5vw;
+} */
+
+.bg-c{
+  background-color: #fff;
+}
+
+.br-5{
+  border-radius: 5px;
+}
+
+.pd-20{
+  padding: 20px;
+}
+
+.pd-8{
+  padding: 8px;
+}
+
+.c-point{
+  cursor: pointer;
+}
+
+/* End Class Utility */
+
+.home.page-template{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/natural-default-pattern.png);
+}
+
+.container.wrap{
+  width: 70%;
+  min-width: 800px;
+  max-width: 1450px;
+  margin: auto;
+}
+
+header{
+  width: 100%;
+  background-color: #fff;
+  padding: 12px;
+  margin: 24px auto 24px;
+  text-align: center;
+  position: relative;
+}
+
+.header-row-top{
+  width: 100%;
+  height: 35vh;
+  min-height: 180px;
+  max-height: 500px;
+  padding: 2px;
+  border: 1px solid black;
+  margin: 0 auto;
+  overflow: hidden;
+  background-image: url(../img/natural-default-header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header-center-row{
+  width: 100%;
+  color: #ffffff;
+  text-shadow: 1px 1px black;
+  text-transform: uppercase;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img.logo{
+  width: 40%;
+}
+
+.logo-title{
+  font-weight: 700;
+  font-family: 'Roboto',Arial,Helvetica,sans-serif;
+  font-size: 1.6em;
+}
+
+
+.nav-row{
+  width: 100%;
+  line-height: 48px;
+  display: inline-block;
+  background-color: #504741;
+  position: absolute;
+  margin: 12px auto 24px;
+  left: 0;
+}
+
+
+.nav-item, .nav-item > a{
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 600;
+  font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: auto 4px;
+  /* devo eliminare i 4px di margine dai link */
+}
+
+.nav-item:hover {
+  background-color: #302b27;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+.row{
+  margin: 48px auto 0;
+}
+
+.row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside.column{
+  width: 15%;
+  margin-top: 24px;
+}
+
+.icon-top{
+  font-size: 2em;
+  color: orange;
+  vertical-align: top;
+}
+
+.column-sx-title{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+aside.sx h2{
+  width: 75%;
+  font-size: 1.6em;
+  font-weight: 400;
+  font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+  color: #504741;
+  display: inline-block;
+  margin: 0px 0 10px 5px;
+}
+
+aside.column.sx > ul a{
+  text-decoration: none;
+  color: #1b8000;
+  font-size: 1em;
+  font-weight: 700;
+  font-family: 'Roboto',Arial,Helvetica,sans-serif;
+  display: inline-block;
+  margin: 5px auto;
+}
+
+aside.column.sx > ul a:hover {
+  background-color: rgb(141, 226, 141, 0.2);
+  text-decoration: underline;
+}
+
+aside.column.dx h2 {
+  font-size: 1.4em;
+  font-weight: 400;
+  font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+  color: #504741;
+  margin: 20px auto 40px;
+}
+
+main.center{
+  width: 60%;
+  margin: 24px 5%;
+  padding: 20px 30px 30px;
+  /* box-shadow: 1px 1px 1px black, -1px -1px 1px black; */
+}
+
+.article-top h2{
+  color: #504741;
+  font-size: 1.6em;
+  font-weight: 600;
+  font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0px rgba(0,0,0,.1);
+  letter-spacing: -1px;
+  line-height: 1.2;
+  margin: 20px auto 50px;
+}
+
+.article-top, .vertical-box{
+  color: #000000;
+  text-shadow: 1px 1px #d9d9d9;
+}
+
+.vertical-box{
+  margin-bottom: 48px;
+}
+
+p{
+  font-size: 1em;
+  font-weight: 400;
+  font-family: 'Roboto',Arial,Helvetica,sans-serif;
+  line-height: 1.8;
+}
+
+footer.contact{
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.contact-link{
+  color: #959595;
+  text-decoration: none;
+}
+
+h3.made{
+  font-size: 1em;
+  font-weight: 400;
+  font-family: 'Montserrat',Arial,Helvetica,sans-serif;
+  line-height: 1.8;
+  border-bottom: 1px solid #cecece;
+}
+
+.contact-bottom{
+  font-size: calc(160px / 3);
+  line-height: 160px;
+}
+
+div > .contact-link {
+  margin: 0 calc(100% / 8)
+}
+
+footer > a:hover{
+  color: #1E90FF;
+  text-shadow: 1px 1px 2px #cecece;
+}
+
+div > .contact-link:hover{
+  color:#66ff99;
+  text-shadow: 1px 1px 2px black;
+}
