@@ -8,10 +8,6 @@
   float: left;
 }
 
-/* .logo{
-  font-size: 2.5vw;
-} */
-
 .bg-c{
   background-color: #fff;
 }
@@ -26,6 +22,10 @@
 
 .pd-8{
   padding: 8px;
+}
+
+.ls-no{
+  list-style: none;
 }
 
 .c-point{
@@ -102,17 +102,15 @@ img.logo{
   left: 0;
 }
 
-
 .nav-item, .nav-item > a{
   color: #fff;
   font-size: 0.9em;
   font-weight: 600;
   font-family: 'Montserrat',Arial,Helvetica,sans-serif;
-  display: inline-block;
   text-decoration: none;
   text-transform: uppercase;
-  margin: auto 4px;
-  /* devo eliminare i 4px di margine dai link */
+  display: inline-block;
+  padding: 0 4px 0 4px;
 }
 
 .nav-item:hover {
